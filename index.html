@@ -20,11 +20,13 @@
         </a>
       </h1>
       <p class="message"></p>
+      <p class="win-message hide"><img src="img/yes-button.png"></p>
+      <p class="lose-message hide"><img src="img/no-button.png"></p>
       <p class="word-in-progress"></p>
       <p class="remaining">You have <span>8 guesses</span> remaining.</p>
       <ul class="guessed-letters"></ul>
       <form action="" class="guess-form">
-        <label for="letter">Type one letter:</label>
+        <label id="guess-label" for="letter">Type one letter:</label>
         <input type="text" name="letter" class="letter" />
         <div class="form-element button-element">
           <button class="guess">Guess!</button>
